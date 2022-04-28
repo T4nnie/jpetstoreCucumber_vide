@@ -14,6 +14,10 @@ public class AnnotationSteps {
 
     WebDriver driver;
 
+    @Given("I am a registered user of the pet store")
+    public void i_am_a_registered_user_of_the_pet_store(){
+        
+    }
     @Given("I visit the Jpetstore web site")
     public void je_suis_sur_le_site_site_jpetstore(){
         driver = new FirefoxDriver();
